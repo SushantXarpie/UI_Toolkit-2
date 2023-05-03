@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="ConfirmationModel" src="project://database/Assets/UIDocuments/ConfirmationModel.uxml?fileID=9197481963319205126&amp;guid=f82ad72cdce1c534f97bca89b0d50780&amp;type=3#ConfirmationModel" />
+    <Style src="project://database/Assets/UIDocuments/StyleSheets/MainMenu.uss?fileID=7433441132597879392&amp;guid=b9c9619557012a54b9a89b3c0a785733&amp;type=3#MainMenu" />
+    <ui:VisualElement name="Panel" class="panel">
+        <ui:VisualElement name="Title" style="background-image: resource(&apos;Art/UI/_MainMenu/ChopChop_Title&apos;); width: auto; height: 30%; padding-left: 2%; padding-right: 2%; padding-top: 2%; padding-bottom: 2%;" />
+        <ui:VisualElement name="panel-buttons" class="buttons-Panel">
+            <PlainButton text="Continue" name="continueButton" class="button" style="font-size: 20%;" />
+            <PlainButton text="New Game" name="newGameButton" class="button" style="font-size: 20%; margin-top: 10%;" />
+            <PlainButton text="Settings" name="settingsButton" class="button" style="font-size: 20%; margin-top: 10%;" />
+            <PlainButton text="Credits" name="creditsButton" class="button" style="font-size: 20%; margin-top: 10%;" />
+            <PlainButton text="Quit" name="quitButton" class="button" style="font-size: 20%;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:Instance template="ConfirmationModel" name="ConfirmationModel" style="position: absolute; left: 0; top: 0; right: 0; bottom: 0;" />
+</ui:UXML>

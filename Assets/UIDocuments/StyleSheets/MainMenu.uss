@@ -1,0 +1,39 @@
+VisualElement {}
+
+.panel {
+    width: 40%;
+    height: 100%;
+    background-image: resource('Art/UI/_MainMenu/BG_Menu');
+    background-color: rgba(0, 0, 0, 0.39);
+}
+
+.buttons-Panel {
+    flex-grow: 1;
+    align-items: center;
+}
+
+.button {
+    font-size: 20%;
+    -unity-font-style: bold;
+    width: 50%;
+    align-items: stretch;
+    color: rgb(255, 255, 255);
+    -unity-text-align: upper-left;
+    margin-top: 20%;
+}
+
+.button:enabled {
+    color: rgb(239, 227, 192);
+}
+
+.button:hover {
+    color: rgb(217, 162, 116);
+}
+
+.button:active {
+    color: rgb(243, 182, 130);
+}
+
+.button:disabled {
+    color: rgb(183, 158, 123);
+}

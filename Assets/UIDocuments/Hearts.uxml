@@ -1,0 +1,62 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UIDocuments/StyleSheets/Hearts.uss?fileID=7433441132597879392&amp;guid=1b89bee1b7e32894a8ea8aa25f206848&amp;type=3#Hearts" />
+    <ui:VisualElement name="panel" picking-mode="Ignore" class="panel">
+        <ui:VisualElement name="heart-container" class="heart-container">
+            <ui:VisualElement name="heart" class="heart" />
+        </ui:VisualElement>
+        <ui:VisualElement name="heart-container" class="heart-container">
+            <ui:VisualElement name="heart" style="background-image: resource(&apos;Art/UI/Heart&apos;); width: auto; height: auto; flex-grow: 1;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="heart-container" class="heart-container">
+            <ui:VisualElement name="heart" style="background-image: resource(&apos;Art/UI/Heart&apos;); width: auto; height: auto; flex-grow: 1;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="heart-container" class="heart-container">
+            <ui:VisualElement name="heart" style="background-image: resource(&apos;Art/UI/Heart&apos;); width: auto; height: auto; flex-grow: 1;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="heart-container" class="heart-container">
+            <ui:VisualElement name="heart" style="background-image: resource(&apos;Art/UI/Heart&apos;); width: auto; height: auto; flex-grow: 1;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="heart-container" class="heart-container">
+            <ui:VisualElement name="heart" style="background-image: resource(&apos;Art/UI/Heart&apos;); width: auto; height: auto; flex-grow: 1;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="heart-container" class="heart-container">
+            <ui:VisualElement name="heart" style="background-image: resource(&apos;Art/UI/Heart&apos;); width: auto; height: auto; flex-grow: 1;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="heart-container" class="heart-container">
+            <ui:VisualElement name="heart" style="background-image: resource(&apos;Art/UI/Heart&apos;); width: auto; height: auto; flex-grow: 1;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="heart-container" class="heart-container">
+            <ui:VisualElement name="heart" style="background-image: resource(&apos;Art/UI/Heart&apos;); width: auto; height: auto; flex-grow: 1;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="heart-container" class="heart-container">
+            <ui:VisualElement name="heart" style="background-image: resource(&apos;Art/UI/Heart&apos;); width: auto; height: auto; flex-grow: 1;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="heart-container" class="heart-container">
+            <ui:VisualElement name="heart" style="background-image: resource(&apos;Art/UI/Heart&apos;); width: auto; height: auto; flex-grow: 1;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="heart-container" class="heart-container">
+            <ui:VisualElement name="heart" style="background-image: resource(&apos;Art/UI/Heart&apos;); width: auto; height: auto; flex-grow: 1;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="heart-container" class="heart-container">
+            <ui:VisualElement name="heart" style="background-image: resource(&apos;Art/UI/Heart&apos;); width: auto; height: auto; flex-grow: 1;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="heart-container" class="heart-container">
+            <ui:VisualElement name="heart" style="background-image: resource(&apos;Art/UI/Heart&apos;); width: auto; height: auto; flex-grow: 1;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="heart-container" class="heart-container">
+            <ui:VisualElement name="heart" style="background-image: resource(&apos;Art/UI/Heart&apos;); width: auto; height: auto; flex-grow: 1;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="heart-container" class="heart-container">
+            <ui:VisualElement name="heart" style="background-image: resource(&apos;Art/UI/Heart&apos;); width: auto; height: auto; flex-grow: 1;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="heart-container" class="heart-container">
+            <ui:VisualElement name="heart" style="background-image: resource(&apos;Art/UI/Heart&apos;); width: auto; height: auto; flex-grow: 1;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="heart-container" class="heart-container">
+            <ui:VisualElement name="heart" style="background-image: resource(&apos;Art/UI/Heart&apos;); width: auto; height: auto; flex-grow: 1;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="heart-container" class="heart-container">
+            <ui:VisualElement name="heart" style="background-image: resource(&apos;Art/UI/Heart&apos;); width: auto; height: auto; flex-grow: 1;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

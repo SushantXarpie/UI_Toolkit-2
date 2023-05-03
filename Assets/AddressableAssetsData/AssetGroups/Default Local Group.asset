@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Default Local Group
+  m_Data:
+    m_SerializedData: []
+  m_GUID: b7f5db1869bd8a6409a312325b93a025
+  m_SerializeEntries:
+  - m_GUID: 139e85e2081b1dc478c359cc6ba33242
+    m_Address: Assets/Scenes/Managers.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fb825fc1948282942a920e2113b628a7
+    m_Address: Assets/Scenes/Main-Menu.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d4388a0375b47934db8f5859da0dadc5
+    m_Address: Assets/ScriptableObjects/LoadSceneChannel.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ae0e78e416cb7fd47b677ddb91993693
+    m_Address: Assets/Scenes/Start.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f139f75ad91a37845a8b0205ab09c9cb
+    m_Address: Assets/ScriptableObjects/GameData.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 068f3e653486c0f409539e71569cb0a2
+    m_Address: Assets/ScriptableObjects/SaveDataChannel.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 65346ea115aa9a549bd398876787c3a8
+    m_Address: Assets/ScriptableObjects/LoadDataChannel.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 51a2f0997509a5d46af6655c87ddcd78
+    m_Address: Assets/Scenes/Forest.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 0d8870ba3bf4d5f4ba985f22e23a597b, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 966d68f71651c9141871aea80023478e, type: 2}
+    - {fileID: 11400000, guid: b06f20aef12ca7341b3f05122e355b58, type: 2}
