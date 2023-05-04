@@ -36,7 +36,7 @@ public class MainMenuUI : MonoBehaviour
         newGameButton = root.Q<PlainButton>("newGameButton");
         settingsButton = root.Q<PlainButton>("settingsButton");
         creditsButton = root.Q<PlainButton>("creditsButton");
-        quitButton = root.Q<PlainButton>("quitButton");
+        quitButton = root.Q<PlainButton>("quitButton"); 
         confirmationScreen = root.Q<VisualElement>("ConfirmationModel");
         confirmButton = confirmationScreen.Q<Button>("ConfirmButton");
         cancelButton = confirmationScreen.Q<Button>("CancelButton");

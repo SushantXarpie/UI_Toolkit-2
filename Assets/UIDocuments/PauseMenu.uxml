@@ -1,0 +1,16 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UIDocuments/StyleSheets/PauseMenu.uss?fileID=7433441132597879392&amp;guid=5d28832786c5a02478b2fed05c444f97&amp;type=3#PauseMenu" />
+    <ui:VisualElement name="body" class="body">
+        <ui:VisualElement name="content" class="content">
+            <PlainButton name="ResumeButton" text="&lt;b&gt;Resume&lt;/b&gt;" class="menu-button" style="font-size: 40%;" />
+            <PlainButton name="SettingsButton" text="&lt;b&gt;Settings&lt;/b&gt;" class="menu-button" style="font-size: 40%;" />
+            <PlainButton name="MainMenuButton" text="&lt;b&gt;Main-Menu&lt;/b&gt;" class="menu-button" style="font-size: 40%;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement name="header" class="header">
+        <ui:Label text="Pause" display-tooltip-when-elided="true" name="Title" class="title" style="font-size: 50%;" />
+        <PlainButton name="CloseButton" class="close-button" style="width: 10%;">
+            <ui:VisualElement name="CloseIcon" class="close-button-icon" />
+        </PlainButton>
+    </ui:VisualElement>
+</ui:UXML>
