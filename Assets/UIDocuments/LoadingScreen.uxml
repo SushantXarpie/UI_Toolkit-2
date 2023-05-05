@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UIDocuments/StyleSheets/LoadingScreen.uss?fileID=7433441132597879392&amp;guid=9786c161bd6cd714ebb4a4a39814bef5&amp;type=3#LOADINGsCREEN" />
+    <ui:VisualElement name="panel" class="panel">
+        <ui:VisualElement name="title" class="title" />
+        <ui:ProgressBar value="0.5" high-value="1" class="progress-bar" />
+    </ui:VisualElement>
+</ui:UXML>

@@ -12,6 +12,8 @@ public class SceneLoader : MonoBehaviour, ISavable<SceneData>
     [SerializeField] private GameData gameData;
     [SerializeField] private SaveDataChannel saveDataChannel;
     [SerializeField] private LoadDataChannel loadDataChannel;
+    [SerializeField] private SceneReadyChannel sceneReadyChannel;
+    [SerializeField] private DownloadState downloadState;
 
     private SceneReference sceneToLoad;
     private SceneReference currentScene;
@@ -47,8 +49,20 @@ public class SceneLoader : MonoBehaviour, ISavable<SceneData>
             currentScene.UnLoadScene();
         }
 
+        StartCoroutine(LoadScene(sceneReference));
+    }
+
+    private IEnumerator LoadScene(SceneReference sceneReference)
+    {
         AsyncOperationHandle<SceneInstance> handle = sceneReference.LoadSceneAsync(LoadSceneMode.Additive);
         handle.Completed += OnSceneLoaded;
+        while (!handle.IsDone)
+        {
+            var status = handle.GetDownloadStatus();
+            downloadState.progress = status.Percent;
+            yield return null;
+        }
+
     }
 
     private void OnSceneLoaded(AsyncOperationHandle<SceneInstance> handle)
@@ -56,6 +70,7 @@ public class SceneLoader : MonoBehaviour, ISavable<SceneData>
         Scene scene = handle.Result.Scene;
         SceneManager.SetActiveScene(scene);
         currentScene = sceneToLoad;
+        sceneReadyChannel.Ready();
     }
 
     private void OnDisable()

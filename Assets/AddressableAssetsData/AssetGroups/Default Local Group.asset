@@ -49,6 +49,18 @@ MonoBehaviour:
     m_Address: Assets/Scenes/Forest.unity
     m_ReadOnly: 0
     m_SerializedLabels: []
+  - m_GUID: e20ce059854506f4e93d214079414db0
+    m_Address: Assets/ScriptableObjects/DownloadState.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 19edf2e7e41b6924293aa4a82d9d5917
+    m_Address: Assets/ScriptableObjects/InputReader.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8f3ac1af47fa8b64b9417ea452d7ae38
+    m_Address: Assets/ScriptableObjects/SceneReadyChannel.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 0d8870ba3bf4d5f4ba985f22e23a597b, type: 2}
   m_SchemaSet:
