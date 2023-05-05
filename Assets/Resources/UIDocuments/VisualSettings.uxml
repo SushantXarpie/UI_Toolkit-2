@@ -1,0 +1,19 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UIDocuments/StyleSheets/Settings.uss?fileID=7433441132597879392&amp;guid=0e1e0a16b6d837844a11f239ad88fe36&amp;type=3#Settings" />
+    <ui:VisualElement name="resolution-setting" class="setting">
+        <ui:Label text="Resolution" display-tooltip-when-elided="true" name="resolution-setting-label" class="setting-label" style="font-size: 25%;" />
+        <ui:VisualElement name="resolution-setting-option" class="setting-option">
+            <PlainButton name="Previous-resolution-Button" class="setting-previous-button" />
+            <ui:Label text="Label" display-tooltip-when-elided="true" name="resolution-setting-value" class="setting-value" style="font-size: 25%;" />
+            <PlainButton name="Next-resolution-Button" class="setting-next-button" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement name="full-screen-setting" class="setting">
+        <ui:Label text="Full Screen" display-tooltip-when-elided="true" name="full-screen-setting-label" class="setting-label" style="font-size: 25%;" />
+        <ui:VisualElement name="full-screen-setting-option" class="setting-option">
+            <PlainButton name="Previous-Full-Screen-Button" class="setting-previous-button" />
+            <ui:Label text="Label" display-tooltip-when-elided="true" name="full-screen-setting-value" class="setting-value" style="font-size: 25%;" />
+            <PlainButton name="Next-Full-Screen-Button" class="setting-next-button" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

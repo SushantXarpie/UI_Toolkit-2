@@ -20,6 +20,10 @@ public class MainMenuUI : MonoBehaviour
     private Button cancelButton;
     private Button closeButton;
 
+    private SettingsElements settingsScreen;
+    private Button settingsCloseButton;
+
+
     [SerializeField] private LoadSceneChannel loadSceneChannel;
     [SerializeField] private SceneReference startingLoadScene;
     [SerializeField] private GameData gameData;
@@ -36,12 +40,19 @@ public class MainMenuUI : MonoBehaviour
         newGameButton = root.Q<PlainButton>("newGameButton");
         settingsButton = root.Q<PlainButton>("settingsButton");
         creditsButton = root.Q<PlainButton>("creditsButton");
-        quitButton = root.Q<PlainButton>("quitButton"); 
+        quitButton = root.Q<PlainButton>("quitButton");
+
         confirmationScreen = root.Q<VisualElement>("ConfirmationModel");
         confirmButton = confirmationScreen.Q<Button>("ConfirmButton");
         cancelButton = confirmationScreen.Q<Button>("CancelButton");
         closeButton = confirmationScreen.Q<Button>("CloseButton");
+
+        settingsScreen = root.Q<SettingsElements>("Settings");
+        settingsCloseButton = settingsScreen.Q<Button>("Close-Button");
+
+
         confirmationScreen.style.display = DisplayStyle.None;
+        settingsScreen.style.display = DisplayStyle.None;
 
         continueButton.SetEnabled(gameData.hasPreviousSave);
         continueButton.clicked += OnContinueClicked;
@@ -51,6 +62,20 @@ public class MainMenuUI : MonoBehaviour
         closeButton.clicked += HideConfirmationScreen;
 
         newGameButton.clicked += StartNewGame;
+
+        settingsButton.clicked += OnSettingsButtonClicked;
+
+        settingsCloseButton.clicked += OnSettingsClosed;
+    }
+
+    private void OnSettingsClosed()
+    {
+        settingsScreen.style.display = DisplayStyle.None;
+    }
+
+    private void OnSettingsButtonClicked()
+    {
+        settingsScreen.style.display = DisplayStyle.Flex;
     }
 
     private void OnContinueClicked()

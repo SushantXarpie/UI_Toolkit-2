@@ -11,5 +11,6 @@
             <PlainButton text="Quit" name="quitButton" class="button" style="font-size: 20%;" />
         </ui:VisualElement>
     </ui:VisualElement>
-    <ui:Instance template="ConfirmationModel" name="ConfirmationModel" style="position: absolute; left: 0; top: 0; right: 0; bottom: 0;" />
+    <ui:Instance template="ConfirmationModel" name="ConfirmationModel" style="position: absolute; left: 0; top: 0; right: 0; bottom: 0; display: none;" />
+    <SettingsElements name="Settings" style="position: absolute; left: 0; top: 0; right: 0; bottom: 0; background-color: rgb(167, 0, 0); display: none;" />
 </ui:UXML>

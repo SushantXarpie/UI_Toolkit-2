@@ -13,4 +13,5 @@
             <ui:VisualElement name="CloseIcon" class="close-button-icon" />
         </PlainButton>
     </ui:VisualElement>
+    <SettingsElements style="position: absolute; left: 0; top: 0; right: 0; bottom: 0; display: none;" />
 </ui:UXML>

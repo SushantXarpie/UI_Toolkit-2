@@ -1,0 +1,23 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UIDocuments/StyleSheets/Settings.uss?fileID=7433441132597879392&amp;guid=0e1e0a16b6d837844a11f239ad88fe36&amp;type=3#Settings" />
+    <ui:VisualElement name="header" class="settings-header">
+        <ui:VisualElement name="tabs" class="settings-tabs">
+            <PlainButton name="audio-tab" text="Audio" class="settings-tab" style="font-size: 30%;" />
+            <PlainButton name="graphics-tab" text="Graphics" class="settings-tab" style="font-size: 30%;" />
+            <PlainButton name="language-tab" text="Language" class="settings-tab" style="font-size: 30%;" />
+        </ui:VisualElement>
+        <PlainButton name="Close-Button" class="settings-close-button" style="width: 5%;">
+            <ui:VisualElement name="Close-button-icon" class="settings-close-button-icon" />
+        </PlainButton>
+    </ui:VisualElement>
+    <ui:VisualElement name="body" class="settings-body">
+        <ui:VisualElement name="content" class="settings-content">
+            <VisualSettingsElement style="display: none;" />
+            <AudioSettingsElement style="display: none;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="footer" class="settings-footer">
+            <PlainButton name="SaveButton" text="Save" class="settings-button" style="font-size: 50%;" />
+            <PlainButton name="ResetButton" text="Reset" class="settings-button" style="font-size: 50%;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
